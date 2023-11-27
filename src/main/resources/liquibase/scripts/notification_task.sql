@@ -1,6 +1,6 @@
--- liquibase formatted sql
+--liquibase formatted sql
 
--- changeset afetisov:1
+--changeset afetisov:1
 CREATE TABLE notification_task
 (
     id        bigserial primary key,
@@ -8,3 +8,4 @@ CREATE TABLE notification_task
     text      varchar,
     exec_date timestamp
 );
+
